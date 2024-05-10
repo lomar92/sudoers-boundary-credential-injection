@@ -15,7 +15,7 @@ The SSH Credential Injection and sudoer restriction example in this repo has bee
 3. Deploy a Boundary Worker in a public network (currently set to eu-central-1)
 4. Establish a connection between the Boundary Controller and the Boundary Worker.
 5. Deploy a server instance in a public subnet and to trust Vault as the CA.
-6. Create a user called "danny" on the server
+6. Create a user called "amar" on the server
 7. Create a directory `/etc/demodir`
 8. Create a text file called `testfile.txt` in the new directory
 9. Create a `readonly_services` file in the `sudoers.d` directory giving "amar" read only access to the `/etc/demodir/*` directory
